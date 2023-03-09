@@ -1,10 +1,17 @@
+body {
+    background-image: url(./images/bg-intro-desktop.png);
+}
 .form-body{
     background-color: hsl(0, 100%, 74%) ;
 }
 .col-left{
-    margin-top:7rem;
+    padding-top:10rem;
 }
 .claim-btn {
+    background-color: hsl(154, 59%, 51%);
+}
+
+.claim-btn:hover{
     background-color: hsl(154, 59%, 51%);
 }
 .right-card{
@@ -12,5 +19,12 @@
 }
 
 .try-btn {
-    background: hsl(248, 32%, 49%);
+    background: hsl(248, 71%, 23%);
+}
+.try-btn:hover {
+    background-color: hsl(248, 71%, 23%);
+}
+.last{
+    color: hsl(246, 25%, 77%);
+    text-align: center;
 }
